@@ -20,6 +20,10 @@ namespace Arrays
             new List<int>(sortedArray).ForEach(e => Console.WriteLine($"{e}"));
 
 
+
+            //Removing duplicates from array
+            var removeDuplicates = new RemoveDuplicatesExercise();
+            removeDuplicates.RemoveDuplicates();
             Console.ReadKey();
         }
     }

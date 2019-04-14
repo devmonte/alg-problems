@@ -23,5 +23,11 @@ namespace Arrays
             }
             return unsortedArray;
         }
+
+        public int[] QuickSort(int[] unsortedArray)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }
